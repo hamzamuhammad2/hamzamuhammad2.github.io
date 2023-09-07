@@ -128,4 +128,13 @@ border-radius: 5px;
     overflow: hidden;
     display: block;
 }
-
+@media screen and (max-width: 1600px) {
+    .name h1{
+        font-size:30px; 
+    }
+    .socialmenu li{
+        overflow: hidden;
+    }
+  }
+  /* index.html */
+  
