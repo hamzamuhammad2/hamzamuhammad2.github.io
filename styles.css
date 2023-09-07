@@ -37,11 +37,13 @@ nav ul li a:hover{
 .name{
     margin-left: 7%;
     margin-top: 10%;
+    display: block;
 }
 .name h1{
     font-size: 50px;
     color:white;
     margin-bottom: 20px;
+    display: block;
 }
 span{
     color: blue;
@@ -104,7 +106,10 @@ border-radius: 5px;
     left: 69%;
     width: 20%;
     height: 50%;
-    transform: rotate(-20deg)
+    transform: rotate(-20deg);
+    background-attachment: fixed;
+    overflow: hidden;
+    display: block;
     
 }
 .mypic2{
@@ -116,5 +121,11 @@ border-radius: 5px;
     height: 50%;
     transform: rotate(5deg);
     overflow: hidden;
+    background-attachment: fixed;
+    display: block;
+}
+.picdiv{
+    overflow: hidden;
+    display: block;
 }
 
