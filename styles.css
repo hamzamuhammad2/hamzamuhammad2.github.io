@@ -45,6 +45,7 @@ nav ul li a:hover{
 }
 span{
     color: blue;
+    overflow: hidden;
 }
 .name p{
     color: white;
@@ -104,6 +105,7 @@ border-radius: 5px;
     width: 20%;
     height: 50%;
     transform: rotate(-20deg)
+    
 }
 .mypic2{
     position: absolute;
@@ -112,6 +114,7 @@ border-radius: 5px;
     left: 69%;
     width: 20%;
     height: 50%;
-    transform: rotate(5deg)
+    transform: rotate(5deg);
+    overflow: hidden;
 }
 
